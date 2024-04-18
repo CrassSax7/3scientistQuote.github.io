@@ -1,0 +1,91 @@
+#navigator{
+   
+    display: grid;
+    height: 5vh;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif, Times, serif;
+    justify-content: space-around;
+    text-shadow: 1px 1px #eee;
+    
+
+}
+p{
+    margin-left: 20vh;
+    margin-right: 20vh;
+}
+#quote-display { 
+
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40%;
+    margin-bottom: 20%;
+    width: 90%;
+ 
+    /*vertical-align:middle;
+    width: 80%; 
+    height: 20vh; 
+    
+    display: flex; 
+    flex-direction: column; 
+    position: center;
+    justify-content: center; 
+    align-items: center; 
+   
+    border-radius: 1px; 
+    padding: 20px; 
+    background-color: rgba(255, 255, 255, 0.1); 
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); */
+} 
+    
+    #quote { 
+        font-family: Papyrus, Arial, sans-serif;
+        font-size: 40px; 
+        font-weight: bold; 
+        margin: 20px; 
+        text-align: center; 
+        text-shadow: 1px 1px rgb(14, 14, 14);
+        padding: 20px;
+        
+        color: rgb(230, 228, 228);
+    } 
+    
+    button { 
+        /*display: flex;
+        margin-left: 50%;
+        margin-right: auto;
+        justify-content: center;
+        font-size: 20px; 
+        text-shadow: 1px 1px #eee;
+        font-weight: bold; 
+        margin: 20px; */
+        display:block;
+        margin:auto;
+        text-align: center; 
+        text-shadow:#eee ;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.1);
+        font-size: 20px; 
+        cursor: pointer; 
+        text-shadow: 1px 1px #eee;
+        /*padding: 10px 20px; 
+        font-size: 20px; 
+        cursor: pointer; 
+        margin-top: 20px;
+         */
+    } 
+   
+
+  #random{
+        /* BOX MODEL */
+        width: 100%;
+        height: 100%;
+        border: 1px solid black;
+       
+            
+    /* ENHANCEMENT */
+    background-image: url('#random') /*url('http://placehold.it/300&text=banner1')*/;
+    min-height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    }

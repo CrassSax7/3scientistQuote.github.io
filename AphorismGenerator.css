@@ -1,0 +1,154 @@
+body { /*display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: #eee; 
+   
+    font-family: Papyrus, Arial, sans-serif;
+   
+    
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; */
+    align-items: center;
+    background-image: url('ocean-3605547_1280.jpg');
+    justify-content: space-around;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    
+  
+} 
+#navigator{
+    display: grid;
+    height: 5vw;
+    font-size:calc(10px + 1.5vw);
+    font-family: Arial, Helvetica, sans-serif, Times, serif;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px #eee;
+ 
+    
+
+}
+/*
+nav a{
+    color: #eee;
+    
+}*/
+
+p{
+    margin-left: 20vh;
+    margin-right: 20vh;
+    
+}
+#background{
+    font-family: Papyrus, Arial, Helvetica, sans-serif;
+    font-size:5vw;
+    text-shadow: 1px 1px#eee;
+    text-align: center;
+  
+   
+}
+
+
+#quote-display { 
+
+    display: flexbox;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40%;
+  margin-bottom: 10%;
+  max-width: 50%;
+  max-height: 50vw;
+ 
+    /*vertical-align:middle;
+    width: 80%; 
+    height: 20vh; 
+    
+    display: flex; 
+    flex-direction: column; 
+    position: center;
+    justify-content: center; 
+    align-items: center; 
+   
+    border-radius: 1px; 
+    padding: 20px; 
+    background-color: rgba(255, 255, 255, 0.1); 
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); */
+} 
+    
+    #quote { 
+        font-size:calc(30px + 2vw);
+        font-weight: bold; 
+        margin: 20px; 
+        text-align: center; 
+        text-shadow: 1px 1px rgb(14, 14, 14);
+        padding: 20px;
+        
+        color: rgb(230, 228, 228);
+    } 
+    
+    button { 
+        /*display: flex;
+        margin-left: 50%;
+        margin-right: auto;
+        justify-content: center;
+        font-size: 20px; 
+        text-shadow: 1px 1px #eee;
+        font-weight: bold; 
+        margin: 20px; */
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center; 
+        text-shadow:#eee ;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.1);
+        font-size: 20px; 
+        cursor: pointer; 
+        text-shadow: 1px 1px #eee;
+      
+        /*padding: 10px 20px; 
+        font-size: 20px; 
+        cursor: pointer; 
+        margin-top: 20px;
+         */
+    } 
+        
+
+    #random{
+        /* BOX MODEL */
+        width: 100%;
+        height: 100%;
+        border: none;
+       
+       
+            
+    /* ENHANCEMENT */
+    background-image: url('#random') /*url('http://placehold.it/300&text=banner1')*/;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+   /* max-height: 90vw;
+    max-width: 90vw;*/
+    }
+
+    #About{
+        font-size:3vw;
+        font-weight: bold; 
+        margin: 10vw; 
+        text-align: center; 
+        text-shadow: 1px 1px rgb(14, 14, 14);
+        color: rgb(230, 228, 228);  
+    }
+    
+
+    h4{
+        font-size: 3vw;
+        margin-left: 30%;
+        margin-right:30%;
+    }
