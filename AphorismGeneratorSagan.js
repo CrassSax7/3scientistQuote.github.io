@@ -48,13 +48,13 @@ window.onload = randombg;
 function randombg(){
     var random= Math.floor(Math.random() * 6) + 0;
     var bigSize = [
-                   "url('/Users/caseybrookshier/Desktop/Portfolio2024/Creating100ProjectsBeginners/AphorismGenerator/earth-1756274_1280.webp')",
-                   "url('/Users/caseybrookshier/Desktop/Portfolio2024/Creating100ProjectsBeginners/AphorismGenerator/eclipse-1492818_1280.webp')",
-                   "url('/Users/caseybrookshier/Desktop/Portfolio2024/Creating100ProjectsBeginners/AphorismGenerator/galaxy-11098_1280.jpg')",
-                   "url('/Users/caseybrookshier/Desktop/Portfolio2024/Creating100ProjectsBeginners/AphorismGenerator/milky-way-67504_1280.jpg')",
-                   "url('/Users/caseybrookshier/Desktop/Portfolio2024/Creating100ProjectsBeginners/AphorismGenerator/stars-67616_1280.jpg')",
-                   "url('/Users/caseybrookshier/Desktop/Portfolio2024/Creating100ProjectsBeginners/AphorismGenerator/stars-2643089_1280.webp')",
-                   "url('/Users/caseybrookshier/Desktop/Portfolio2024/Creating100ProjectsBeginners/AphorismGenerator/universe-2742113_1280.jpg')",
+                   "url('/earth-1756274_1280.webp')",
+                   "url('/eclipse-1492818_1280.webp')",
+                   "url('/galaxy-11098_1280.jpg')",
+                   "url('/milky-way-67504_1280.jpg')",
+                   "url('/stars-67616_1280.jpg')",
+                   "url('/stars-2643089_1280.webp')",
+                   "url('/universe-2742113_1280.jpg')",
                    ];
     document.getElementById("random").style.backgroundImage=bigSize[random];
     document.getElementById("navigator").style.backgroundImage=bigSize[navigator];
